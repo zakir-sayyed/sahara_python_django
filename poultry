@@ -1,0 +1,15 @@
+# Poultry Farm Profit Calculator
+
+total_chickens = int(input("Total chickens: "))
+eggs_per_day = int(input("Total eggs per day: "))
+price_per_egg = float(input("Price per egg: "))
+feed_cost_per_day = float(input("Feed cost per day: "))
+
+daily_income = eggs_per_day * price_per_egg
+daily_profit = daily_income - feed_cost_per_day
+
+print("\n----- Poultry Farm Report -----")
+print("Total Chickens:", total_chickens)
+print("Daily Income: ₹", daily_income)
+print("Feed Cost: ₹", feed_cost_per_day)
+print("Daily Profit: ₹", daily_profit)
